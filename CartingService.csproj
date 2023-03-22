@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="CartingService.BLL\CartingService.BLL.csproj" />
     <ProjectReference Include="CartingService.DAL\CartingService.DAL.csproj" />
-    <ProjectReference Include="CartingService.GlobalEntity\CartingService.GlobalEntity.csproj" />
+    <ProjectReference Include="CartingService.GlobalEntity\CartingService.Entities.csproj" />
   </ItemGroup>
 
 </Project>
