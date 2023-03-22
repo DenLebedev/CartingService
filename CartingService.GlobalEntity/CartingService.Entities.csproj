@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CartingService.DAL\CartingService.DAL.csproj" />
-    <ProjectReference Include="..\CartingService.GlobalEntity\CartingService.Entities.csproj" />
+    <PackageReference Include="LiteDB" Version="5.0.16" />
   </ItemGroup>
 
 </Project>
